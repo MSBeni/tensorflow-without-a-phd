@@ -14,8 +14,8 @@
 # limitations under the License.
 
 import tensorflow as tf
-import tensorflowvisu
-import mnistdata
+from tensorflow_mnist_tutorial import tensorflowvisu
+from tensorflow_mnist_tutorial import mnistdata
 import math
 print("Tensorflow version " + tf.__version__)
 tf.set_random_seed(0)

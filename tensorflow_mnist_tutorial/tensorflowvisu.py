@@ -23,7 +23,7 @@ plt.style.use(["ggplot", "tensorflowvisu.mplstyle"])
 import matplotlib.animation as animation
 from matplotlib import rcParams
 import math
-import tensorflowvisu_digits
+from tensorflow_mnist_tutorial import tensorflowvisu_digits
 tf.set_random_seed(0)
 
 # number of percentile slices for histogram visualisations
